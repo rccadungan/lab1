@@ -6,7 +6,7 @@
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
-	color: #CC00AA;
+	color: #00c5cc;
 }
 
 /* this style exists to make it obvious that you've successfully linked
