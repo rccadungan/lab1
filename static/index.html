@@ -14,7 +14,6 @@
     <![endif]-->
 </head>
 	
-<form>  <input type=”button” onClick=”document.bgColor=’RED'” value=” RED “> <input type=”button” onClick=”document.bgColor=’YELLOW'” value=” YELLOW “> <input type=”button” onClick=”document.bgColor=’PINK'” value=” PINK “> </form> 
 	
 <style>
 	body{
@@ -76,5 +75,21 @@
 				</center>
 			
 	</div>
+			<button id="color">Change color!</button>
+<script>
+document.getElementById('color').onclick = changeColor;
+var currentColor = "red";
+
+function changeColor() {
+	if(currentColor == "red"){
+document.body.style.color = "green";
+currentColor = "green";
+	} else {
+document.body.style.color = "red";
+currentColor = "red";
+	}
+return currentColor;
+}
+</script>
 </body>
 </html>
