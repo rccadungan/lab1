@@ -17,19 +17,64 @@
 	
 <style>	
 	
+div.gallery {
+  border: 1px solid #ccc;
+}
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 	
 /* Style the header */
 .header {
   background-color: #fdfaff;
-  padding: 5px;
+  padding: 3px;
   text-align: center;
 }
 	
 /* Style the footer */
 .footer {
   background-color: #fdfaff;
-  padding: 3px;
+  padding: 1px;
   text-align: center;
 }
 	
@@ -72,14 +117,15 @@
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div id="project1">
-
-				<center>
-				<p>Playing Basketball</p>
-				<img src="\images\basketball.jpg" alt="penguings playing basketball gif" height="400" width="500">
-				</center>
-			
+		
+		<div class="responsive">
+  			<div class="gallery">
+      				<img src="\images\basketball.jpg" alt="penguings playing basketball gif" width="600" height="400">
+    			<div class="desc">Add a description of the image here</div>
+  			</div>
 		</div>
+		
+		
 		<div id="project2">
 			
 				<center>
