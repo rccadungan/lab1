@@ -2,9 +2,23 @@
 
 <html>
 <head>
-	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>HCI Project Portfolio</title>
-	<meta charset="utf-8">
+	<!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!--<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- this is a comment in HTML -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -14,14 +28,119 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-	
-	
-<style>	
-	
-</style>
 
 <body>
 
+      <header>
+            <nav class="menu">
+                  <ul class="menu">
+                        <li>
+                              <a href="#home">Home</a>
+                        </li>
+                        <li>
+                              <a href="#overview">Overview</a>
+                        </li>
+                        <li>
+                              <a href="#features">Features</a>
+                        </li>
+                        <li>
+                              <a href="#download">Download</a>
+                        </li>
+                  </ul>
+                  <a href="#" id="toggle-btn">SLICK</a>
+            </nav>
+      </header>
+
+      <!-- content -->
+
+      <a name="home"></a>
+      <div class="section-hero">
+            <div class="container">
+                  <h1>Slick App</h1>
+                  <h2><i class="fa fa-camera" aria-hidden="true"></i>Start your amazing stuff through Slick.</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima illo et libero! Facere eligendi doloremque commodi facilis eos officiis odit repellendus quia assumenda ea placeat accusantium ipsa laborum rem non nostrum, at ratione, cumque! Magni iusto cupiditate adipisci perspiciatis. Rem.</p>
+            </div>
+      </div>
+
+      <!-- overview section -->
+
+      <a name="overview"></a>
+      <div id="overview" class="section">
+            <div class="container">
+                  <div class="overview-content">
+
+                  <div>
+                        <h2>Overview</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut fugit, repellendus nobis temporibus, nihil saepe facilis ullam iure blanditiis facere?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, aliquid, provident. Illo unde amet culpa, deserunt veniam possimus praesentium officiis.</p>
+                        <button type="button">View More</button>
+                  </div>
+
+                  <div>
+                        <img src="images/overview.jpg" alt="">
+                  </div>
+
+                  </div>
+            </div>
+      </div>
+
+      <!-- about section       -->
+
+
+      <div id="about" class="section">
+            <div class="container">
+                  <h2>
+                        <i class="fa fa-camera"></i>slick
+                  </h2>
+                  <h3>Capture the moments.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ab fuga aliquid possimus, consectetur ipsa tempora voluptates. Nisi consectetur, aut.</p>
+                  <img src="\images\picture.jpg" alt="">
+            </div>
+      </div>
+
+
+      <!-- features -->
+      <a name="features"></a>
+      <div id="features" class="section">
+            <div class="container">
+                  <div class="features-content">
+                        <div>
+                              <img src="images/features.jpg" alt="">
+                        </div>
+                        <div>
+                              <h2>Features</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, voluptate.</p>
+                              <h4>&#10148; Easy Notification</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, asperiores?</p>
+                              <h4>&#10148; Fully Responsive</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, asperiores?</p>
+                              <h4>&#10148; Editable Layout</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, asperiores?</p>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+      <!-- download -->
+
+      <a name="download"></a>
+      <div id="subscribe" class="section">
+            <div class="container">
+                  <h2>Subscribe to our newsletter</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ea, ab asperiores mollitia laudantium consequuntur dignissimos obcaecati id veniam ratione?</p>
+                  <input type="text" placeholder="Enter your email">
+                  <br>
+                  <button type="button">Notify Me</button>
+            </div>
+      </div>
+
+      <!-- footer -->
+      <footer>
+            <span>created by harrnish</span>
+      </footer>
+
+      <script src="js/script.js"></script>
+</body>
 	
 	<div>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
@@ -35,43 +154,6 @@
 		<div id="project1">
 				<img src="\images\picture.jpg" alt="photo" height="150" width="150">
 		</div>
-
-		<center><h2>Hobbies and Interests</h2></center>
-		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
-		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
-		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		
-		<div class="responsive">
-  			<div class="gallery">
-				<a target="_blank" href="\images\basketball.jpg">
-      					<img src="\images\basketball.jpg" alt="penguings playing basketball gif" width="600" height="400">
-    				</a>
-			<div class="desc">Playing Basketball</div>
-  			</div>
-		</div>
-		
-		
-		<div class="responsive">
-  			<div class="gallery">
-				<a target="_blank" href=\images\music.gif">
-      					<img src="\images\music.gif" alt="listening to music gif" width="600" height="400">
-    				</a>
-			<div class="desc">Listening to Music</div>
-  			</div>
-		</div>
-		
-		<div class="responsive">
-  			<div class="gallery">
-				<a target="_blank" href="\images\nysm.gif">
-      					<img src="\images\nysm.gif" alt="watching movies gif" width="600" height="400">
-    				</a>
-			<div class="desc">Watching Movies</div>
-  			</div>
-		</div>
-		
-			
-			
-	</div>
 			
 </body>
 </html>
