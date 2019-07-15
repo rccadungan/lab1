@@ -232,6 +232,12 @@ nav a#toggle-btn {
       padding: 8rem 0;
 }
 
+#about img {
+      margin: 20px 0;
+      height: 100;
+      width: 100;
+}
+
 #about h2 {
       text-transform: uppercase;
       font-weight: 800;
