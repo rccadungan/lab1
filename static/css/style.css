@@ -272,7 +272,7 @@ nav a#toggle-btn {
 /*movies slideshow*/
 /* Slideshow container */
 .slideshow-container {
-  max-width: 250px;
+  max-width: 350px;
   position: relative;
   margin: auto;
 }
